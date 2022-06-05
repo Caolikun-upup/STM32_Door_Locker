@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 29 07:23:01 2022
+# Make data base, printed on Sun Jun  5 10:33:06 2022
 
 # Variables
 
@@ -65,12 +65,13 @@ _ = /usr/bin/make
 # makefile (from 'Makefile', line 130)
 CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
 # environment
-JOURNAL_STREAM = 8:53497
+JOURNAL_STREAM = 8:56456
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # makefile (from 'build/stm32f1xx_it.d', line 1)
+ 
 MAKEFILE_LIST :=  Makefile build/stm32f1xx_hal_pwr.d build/stm32f1xx_hal_exti.d build/stm32f1xx_hal_rcc.d build/system_stm32f1xx.d build/stm32f1xx_hal_flash_ex.d build/startup_stm32f103xe.d build/stm32f1xx_hal_rcc_ex.d build/stm32f1xx_hal.d build/stm32f1xx_hal_tim.d build/stm32f1xx_hal_flash.d build/stm32f1xx_hal_gpio.d build/stm32f1xx_hal_msp.d build/main.d build/stm32f1xx_hal_cortex.d build/stm32f1xx_hal_tim_ex.d build/stm32f1xx_hal_dma.d build/stm32f1xx_hal_gpio_ex.d build/stm32f1xx_it.d
 # automatic
 @F = $(notdir $@)
@@ -93,13 +94,13 @@ VSCODE_VERBOSE_LOGGING = true
 # makefile (from 'Makefile', line 75)
 AS = $(PREFIX)gcc -x assembler-with-cpp
 # environment
-MANAGERPID = 1496
+MANAGERPID = 1547
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5c8b9cb2-044e-407b-ad45-3042dcb39e72.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d5e154c6-d775-47e1-9053-cdd6fea4c8f2.sock
 # environment
 LC_NAME = zh_CN.UTF-8
 # environment
-VSCODE_CWD = /home/lkcao/Program/VSCode-linux-x64
+VSCODE_CWD = /home/lkcao
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -107,7 +108,7 @@ NO_PROXY = localhost,127.0.0.0/8,::1
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1705,unix/ubuntu:/tmp/.ICE-unix/1705
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1754,unix/ubuntu:/tmp/.ICE-unix/1754
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # automatic
@@ -119,13 +120,12 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 3c0176afbfc245678eb7f6bd6ea0abe5
+INVOCATION_ID = 3badc452366b4e83b6284acdbf5236c8
 # makefile (from 'Makefile', line 142)
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
- 
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
 XDG_SESSION_DESKTOP = ubuntu
@@ -148,7 +148,7 @@ PWD = /home/lkcao/Documents/stm_project/door_locker
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1670
+SSH_AGENT_PID = 1719
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -221,8 +221,6 @@ CPU = -mcpu=cortex-m3
 LC_TELEPHONE = zh_CN.UTF-8
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /home/lkcao/Desktop
 # makefile (from 'Makefile', line 141)
 LIBDIR = 
 # default
@@ -246,8 +244,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = zh_CN.UTF-8
 # environment
-LC_IDENTIFICATION = zh_CN.UTF-8
-# environment
 QT_ACCESSIBILITY = 1
 # makefile (from 'Makefile', line 95)
 MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
@@ -261,12 +257,10 @@ LC_NUMERIC = zh_CN.UTF-8
 LC_MEASUREMENT = zh_CN.UTF-8
 # environment
 LC_ALL = C
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # makefile (from 'Makefile', line 140)
 LIBS = -lc -lm -lnosys 
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e982f8ed_f88f_4499_9eef_c2833fb880b8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/bc9b7e9b_c907_4771_9604_85248a4be6bb
 # automatic
 ^F = $(notdir $^)
 # environment
@@ -274,7 +268,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # makefile (from 'Makefile', line 38)
 C_SOURCES = Core/Src/main.c Core/Src/stm32f1xx_it.c Core/Src/stm32f1xx_hal_msp.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Core/Src/system_stm32f1xx.c  
 # environment
-GNOME_TERMINAL_SERVICE = :1.110
+GNOME_TERMINAL_SERVICE = :1.122
 # default
 SUFFIXES := 
 # environment
@@ -284,7 +278,7 @@ WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-GJS_DEBUG_OUTPUT = stderr
+LC_IDENTIFICATION = zh_CN.UTF-8
 # default
 .RECIPEPREFIX := 
 # makefile (from 'Makefile', line 155)
@@ -296,9 +290,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 3177
+VSCODE_PID = 3877
 # variable set hash-table stats:
-# Load=143/1024=14%, Rehash=0, Collisions=24/240=10%
+# Load=140/1024=14%, Rehash=0, Collisions=23/237=10%
 
 # Pattern-specific Variable Values
 
@@ -306,12 +300,12 @@ VSCODE_PID = 3177
 
 # Directories
 
-# . (device 2053, inode 941628): 12 files, no impossibilities.
+# . (device 2053, inode 941628): 13 files, no impossibilities.
 # build (device 2053, inode 1199816): 59 files, no impossibilities.
 # Core/Src (device 2053, inode 1077952): 6 files, no impossibilities.
 # Drivers/STM32F1xx_HAL_Driver/Src (device 2053, inode 1079248): 63 files, no impossibilities.
 
-# 140 files, no impossibilities in 4 directories.
+# 141 files, no impossibilities in 4 directories.
 
 # Implicit Rules
 
@@ -351,6 +345,7 @@ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
 #  Successfully updated.
 
 # Not a target:
+ 
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c:
 #  Implicit rule search has been done.
 #  Last modified 2022-05-28 21:27:14.739701603
@@ -394,7 +389,6 @@ build/stm32f1xx_hal_gpio.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.
 Drivers/CMSIS/Include/cmsis_version.h:
 #  Implicit rule search has been done.
 #  Last modified 2022-05-28 21:27:17.379639046
- 
 #  File has been updated.
 #  Successfully updated.
 
@@ -611,6 +605,7 @@ Core/Src/system_stm32f1xx.c:
 #  Successfully updated.
 
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:
+ 
 #  Implicit rule search has been done.
 #  Last modified 2022-05-28 21:27:14.691702743
 #  File has been updated.
@@ -660,7 +655,6 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c:
 #  File has been updated.
 #  Successfully updated.
 
- 
 # Not a target:
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c:
 #  Implicit rule search has been done.
@@ -878,6 +872,7 @@ build/stm32f1xx_hal_rcc.d:
 
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-05-28 21:27:14.695702647
 #  File has been updated.
 #  Successfully updated.
@@ -925,7 +920,6 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c:
 #  File has been updated.
 #  Successfully updated.
 
- 
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
 #  Implicit rule search has been done.
 #  Last modified 2022-05-28 21:27:14.727701888
@@ -972,12 +966,12 @@ vpath %.c Core/Src:Drivers/STM32F1xx_HAL_Driver/Src
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 248 / storage = 6124 B / avg = 24 B
-# current buf: size = 8162 B / used = 6124 B / count = 248 / avg = 24 B
+# strcache buffers: 1 (0) / strings = 249 / storage = 6129 B / avg = 24 B
+# current buf: size = 8162 B / used = 6129 B / count = 249 / avg = 24 B
 
-# strcache performance: lookups = 1594 / hit rate = 84%
+# strcache performance: lookups = 1595 / hit rate = 84%
 # hash-table stats:
-# Load=248/8192=3%, Rehash=0, Collisions=58/1594=4%
-# Finished Make data base on Sun May 29 07:23:01 2022
+# Load=249/8192=3%, Rehash=0, Collisions=58/1595=4%
+# Finished Make data base on Sun Jun  5 10:33:06 2022
 
  
